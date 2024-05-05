@@ -1,19 +1,19 @@
 a = 10
-b = 15 
+b = 15
 c = 20
 
 def addition():
     add = a + b
     print(add)
 
-def substraction():
-    substraction = c - b
-    print(substraction)
+def subtraction():
+    sub = c - b
+    print(sub)
 
 def multiply():
     mul = a * b * c
     print(mul)
 
-    addition()
-    substraction()
-    multiply()
+multiply()
+addition()
+subtraction()
