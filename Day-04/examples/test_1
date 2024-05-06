@@ -1,0 +1,9 @@
+def calculate(a, b):
+    result = a + b  # You can replace this with any desired calculation
+    return result
+
+# Example usage
+num1 = 5
+num2 = 3
+output = calculate(num1, num2)
+print(output)  # Output: 8
